@@ -1,0 +1,221 @@
+/* Toda esta parte es del menú */
+
+#menu_body {
+    font-family: "Comic Neue", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e3f2fd; /* Azul claro */
+}
+
+.menu {
+    font-family: "Comic Neue", cursive;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Esto pone una sombra alrededor de la caja */
+    max-width: 500px;
+    width: 90%;
+}
+
+.menu h1 {
+    font-family: "Comic Neue", cursive;
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.menu h1 span {
+    text-decoration: underline; /* Esto subraya el texto que he seleccionado en el span del html */
+}
+
+.menu a button {
+    font-family: "Comic Neue", cursive;
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #a0ceee;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.menu a button:hover {
+    background-color: #1e88e5; /* Esto hace que el azul se vuelva más oscuro al pasar el ratón por encima */
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón por encima */
+}
+
+.menu a button:active {
+    background-color: #1565c0; /* Azul más oscuro al hacer clic */
+    transform: scale(0.95); /* Efecto de clic */
+}
+
+/* Toda esta parte es del "¿Quién soy?", tanto inglés como español */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a0ceee;
+    border-bottom: 2px solid #ddd;
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    margin: 0; /* Elimina márgenes */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.header #icon {
+    width: 40px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Hereda el color del elemento padre */
+}
+
+.header a img {
+    display: inline-block; /* Asegura que las imágenes se comporten correctamente */
+}
+
+.icon-right a {
+    margin: 0 15px; /* Añade espacio horizontal entre los iconos */
+}
+
+main {
+    font-family: "Comic Neue", cursive;
+    padding-top: 20px; /* Espacio para que el contenido no quede detrás de la cabecera */
+    padding-bottom: 20px; /* Espacio para evitar que el contenido quede detrás del footer */
+    text-align: center;
+}
+
+.personal-details {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.personal-details h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.personal-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.personal-info {
+    margin-bottom: 30px;
+}
+
+.video iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #a0ceee;
+    border-top: 2px solid #ddd;
+    z-index: 1000;
+    margin: 0;
+}
+
+.personal-info h1,
+.hobbies h2,
+.free-time h2,
+.video h2 {
+    text-align: center;
+}
+
+.video h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Espacio entre el título y el vídeo */
+}
+
+.video iframe {
+    display: block; /* Asegura que el iframe esté en una nueva línea */
+    margin: 0 auto; /* Centra el iframe horizontalmente */
+    max-width: 100%;
+    height: auto;
+}
+
+.hobbies {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hobbies-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre los recuadros */
+    margin-top: 20px;
+}
+
+.hobby-box {
+    flex: 1; /* Ambos recuadros ocupan el mismo espacio */
+    background-color: #d9eefd; /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left; /* Texto alineado a la izquierda */
+}
+
+.hobby-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Aquí va todo lo de la parte de "Estudios" tanto inglés como español */
+
+.academic-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente el texto con el mapa */
+    gap: 20px; /* Espacio entre las columnas */
+    margin-bottom: 30px; /* Espacio entre las filas */
+}
+
+.academic-info {
+    flex: 1; /* Ocupa el mismo espacio que el mapa */
+    display: flex; /* Activa flexbox para centrar el contenido */
+    flex-direction: column; /* Asegura que el contenido esté en una columna */
+    justify-content: center; /* Centra el texto verticalmente */
+    align-items: center; /* Centra el texto horizontalmente */
+    background-color: transparent; /* Quita el fondo */
+    padding: 0; /* Elimina el relleno */
+    text-align: center; /* Centra el texto dentro de la columna */
+    box-shadow: none; /* Quita la sombra */
+    margin: 0; /* Elimina márgenes */
+    height: 300px; /* Asegura que tenga la misma altura que el mapa */
+}
+
+.map {
+    flex: 1; /* Ocupa el mismo espacio que la información académica */
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%; /* Asegura que el mapa ocupe todo el ancho disponible */
+    height: 300px;
+    border-radius: 10px;
+}
