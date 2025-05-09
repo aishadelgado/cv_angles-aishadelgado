@@ -550,4 +550,38 @@ hr {
         width: 100%; /* Asegura que el iframe ocupe todo el ancho disponible */
         max-width: 100%; /* Evita que el iframe exceda el ancho del contenedor */
     }
+    
+    .experience-container {
+        display: flex;
+        flex-direction: column; /* Coloca los elementos en columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        gap: 20px; /* Espacio entre la foto, el texto y el mapa */
+        width: 100%; /* Asegura que no haya desbordamiento */
+        box-sizing: border-box; /* Evita desbordamiento */
+    }
+
+    .experience-content {
+        display: flex;
+        flex-direction: column; /* Coloca la foto y el texto en columna */
+        align-items: center; /* Centra la foto y el texto */
+        gap: 10px; /* Espacio entre la foto y el texto */
+    }
+
+    .experience-logo {
+        width: 100px; /* Ajusta el tamaño de la foto */
+        height: auto; /* Mantiene la proporción de la imagen */
+        border-radius: 10px; /* Opcional: bordes redondeados */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    }
+
+    .experience-text {
+        text-align: center; /* Centra el texto */
+        max-width: 600px; /* Limita el ancho del texto */
+    }
+
+    .map iframe {
+        width: 100%; /* Asegura que el mapa ocupe todo el ancho disponible */
+        height: 300px; /* Ajusta la altura del mapa */
+        border-radius: 10px; /* Opcional: bordes redondeados */
+    }
 }
