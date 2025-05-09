@@ -7,7 +7,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #e3f2fd; /* Azul claro */
+    background-color: #e3f2fd;
 }
 
 .menu {
@@ -71,7 +71,7 @@
     background-color: #a0ceee;
     border-bottom: 2px solid #ddd;
     z-index: 1000; /* Asegura que esté por encima del contenido */
-    margin: 0; /* Elimina márgenes */
+    margin: 0;
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 }
 
@@ -81,7 +81,7 @@
 }
 
 .header a {
-    display: flex; /* Coloca el ícono y el texto en una fila */
+    display: flex; /* Coloca el icono y el texto en una fila */
     align-items: center; /* Alinea verticalmente el ícono y el texto */
     gap: 5px; /* Espacio entre el ícono y el texto */
     text-decoration: none; /* Elimina el subrayado del texto */
@@ -161,9 +161,9 @@ main {
 }
 
 .video iframe {
-    width: 750px; /* Asegura que el video ocupe todo el ancho disponible */
-    height: 500px; /* Aumenta la altura del video */
-    border-radius: 10px; /* Opcional: bordes redondeados */
+    width: 750px;
+    height: 500px;
+    border-radius: 10px; 
     display: block; /* Asegura que el iframe esté en una nueva línea */
     margin: 0 auto; /* Centra el iframe horizontalmente */
 }
@@ -182,7 +182,7 @@ main {
 
 .hobby-box {
     flex: 1; /* Ambos recuadros ocupan el mismo espacio */
-    background-color: #d9eefd; /* Fondo claro */
+    background-color: #d9eefd;
     padding: 20px;
     border-radius: 10px;
     text-align: left; /* Texto alineado a la izquierda */
@@ -210,11 +210,11 @@ main {
     flex-direction: column; /* Asegura que el contenido esté en una columna */
     justify-content: center; /* Centra el texto verticalmente */
     align-items: center; /* Centra el texto horizontalmente */
-    background-color: transparent; /* Quita el fondo */
-    padding: 0; /* Elimina el relleno */
+    background-color: transparent;
+    padding: 0;
     text-align: center; /* Centra el texto dentro de la columna */
     box-shadow: none; /* Quita la sombra */
-    margin: 0; /* Elimina márgenes */
+    margin: 0;
     height: 300px; /* Asegura que tenga la misma altura que el mapa */
 }
 
@@ -227,15 +227,15 @@ main {
 .academic-logo {
     width: 80px; /* Ancho uniforme para todos los logos */
     height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 10px; /* Opcional: bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .academic-logo-sant-marc {
-    width: 100px; /* Ancho uniforme para todos los logos */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 10px; /* Opcional: bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .academic-text {
@@ -315,10 +315,10 @@ main {
 }
 
 .experience-logo {
-    width: 80px; /* Ancho uniforme para todos los logos */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 10px; /* Opcional: bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .experience-text {
@@ -516,10 +516,10 @@ hr {
     }
 
     .academic-logo {
-        width: 100px; /* Ajusta el tamaño de la foto */
-        height: auto; /* Mantiene la proporción de la imagen */
-        border-radius: 10px; /* Opcional: bordes redondeados */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .academic-text {
@@ -550,7 +550,7 @@ hr {
         width: 100%; /* Asegura que el iframe ocupe todo el ancho disponible */
         max-width: 100%; /* Evita que el iframe exceda el ancho del contenedor */
     }
-    
+
     .experience-container {
         display: flex;
         flex-direction: column; /* Coloca los elementos en columna */
@@ -568,10 +568,10 @@ hr {
     }
 
     .experience-logo {
-        width: 100px; /* Ajusta el tamaño de la foto */
-        height: auto; /* Mantiene la proporción de la imagen */
-        border-radius: 10px; /* Opcional: bordes redondeados */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .experience-text {
