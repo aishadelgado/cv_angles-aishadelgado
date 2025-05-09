@@ -209,6 +209,31 @@ main {
     height: 300px; /* Asegura que tenga la misma altura que el mapa */
 }
 
+.academic-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.academic-logo {
+    width: 80px; /* Ancho uniforme para todos los logos */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+.academic-logo-sant-marc {
+    width: 100px; /* Ancho uniforme para todos los logos */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+.academic-text {
+    flex: 1; /* Asegura que el texto ocupe el espacio restante */
+    text-align: left;
+}
+
 .map {
     flex: 1; /* Ocupa el mismo espacio que la información académica */
     text-align: center;
@@ -248,4 +273,119 @@ main {
 
 .language p {
     font-size: 16px;
+}
+
+/* Aquí va todo lo de la parte de "Experiéncia" tanto inglés como español */
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Alinea verticalmente el texto con el mapa */
+    gap: 20px; /* Espacio entre las columnas */
+    margin-bottom: 30px; /* Espacio entre las filas */
+}
+
+.experience-info {
+    flex: 1; /* Ocupa el mismo espacio que el mapa */
+    display: flex; /* Activa flexbox para centrar el contenido */
+    flex-direction: column; /* Asegura que el contenido esté en una columna */
+    justify-content: center; /* Centra el texto verticalmente */
+    align-items: center; /* Centra el texto horizontalmente */
+    background-color: transparent; /* Quita el fondo */
+    padding: 0; /* Elimina el relleno */
+    text-align: center; /* Centra el texto dentro de la columna */
+    box-shadow: none; /* Quita la sombra */
+    margin: 0; /* Elimina márgenes */
+    height: 300px; /* Asegura que tenga la misma altura que el mapa */
+}
+
+.experience-content {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.experience-logo {
+    width: 80px; /* Ancho uniforme para todos los logos */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: sombra */
+}
+
+.experience-text {
+    flex: 1; /* Asegura que el texto ocupe el espacio restante */
+    text-align: left;
+}
+
+.map {
+    flex: 1; /* Ocupa el mismo espacio que la información académica */
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%; /* Asegura que el mapa ocupe todo el ancho disponible */
+    height: 300px;
+    border-radius: 10px;
+}
+
+.activities-container {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activities-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.activity {
+    margin-bottom: 20px;
+}
+
+.activity h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.activity p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.competencies-container {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.competencies-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.competencies-columns {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las columnas se ajusten si el espacio es limitado */
+    gap: 20px; /* Espacio entre las columnas */
+    justify-content: space-between; /* Distribuye las columnas uniformemente */
+}
+
+.competencies-columns p {
+    flex: 1 1 calc(50% - 20px); /* Cada columna ocupa el 50% del ancho menos el espacio del gap */
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
 }
